@@ -7,9 +7,10 @@ public class miniprojeto {
         Scanner escaner = new Scanner(System.in);
 
         
-        System.out.println("Olá, para começarmos me diga seu nome: ");
+        System.out.println("Olá, para começarmos me diga seu nome aventureiro: ");
         String nomeP = escaner.nextLine();
-        System.out.println("É um prazer te conheçer, "+nomeP+", vamos começar essa aventura!!");
+        System.out.println("É um prazer te conheçer, "+nomeP+
+        ", vamos começar essa aventura!!");
         System.out.println("\n\nVocê é um aventureiro aprendiz que acabou de chegar na cidade de Whiterun, você sente na pele um ar de misterio e tambem se sente ansioso pelas novas aventuras que estão por vir. Enquanto contemplava as ruas de Whiterun, a cidade parecia pulsar com uma energia própria, cheia de promessas e desafios. Seria sábio explorar cada canto em busca de segredos e oportunidades? Ou deveria seguir o caminho seguro, rumo à guilda local, em busca de orientação e talvez até mesmo de companheiros de jornada? As possibilidades se estendiam diante do aventureiro, cada uma com suas próprias recompensas e perigos. A escolha estava em suas mãos: explorar a cidade ou buscar a sabedoria da guilda?(Escolha entre Explorar a cidade ou Ir para guilda, digite do mesmo jeito desse parenteses.)");
         String decisao1 = escaner.nextLine();
         
